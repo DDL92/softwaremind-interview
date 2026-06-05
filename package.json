@@ -1,0 +1,25 @@
+{
+  "name": "softwaremind-playwright-assessment",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript automation framework for the Softwaremind assessment application.",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "typecheck": "tsc --noEmit",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "qa-automation",
+    "pom"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "dotenv": "^16.4.7",
+    "typescript": "^5.8.3"
+  }
+}
